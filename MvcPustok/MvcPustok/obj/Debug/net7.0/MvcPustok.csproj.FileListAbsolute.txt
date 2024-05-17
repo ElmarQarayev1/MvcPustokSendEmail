@@ -2669,3 +2669,9 @@
 /Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/obj/Debug/net7.0/MvcPustok.pdb
 /Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/obj/Debug/net7.0/MvcPustok.genruntimeconfig.cache
 /Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/obj/Debug/net7.0/ref/MvcPustok.dll
+/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/bin/Debug/net7.0/MailKit.dll
+/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/bin/Debug/net7.0/MimeKit.dll
+/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/bin/Debug/net7.0/System.Formats.Asn1.dll
+/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll

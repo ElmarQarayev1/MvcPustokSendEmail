@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Net.Mail;
 using System.Security.Claims;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MimeKit;
 using MvcPustok.Data;
 using MvcPustok.Models;
 using MvcPustok.ViewModels;
@@ -217,25 +220,42 @@ namespace MvcPustok.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult ForgetPassword(ForgetPasswordViewModel vm)
+        public IActionResult ForgetPassword(ForgetPasswordViewModel viewmodel)
         {
-            if (!ModelState.IsValid) return View(vm);
+            if (!ModelState.IsValid) return View(viewmodel);
 
-            AppUser? user = _userManager.FindByEmailAsync(vm.Email).Result;
+            AppUser? user = _userManager.FindByEmailAsync(viewmodel.Email).Result;
 
             if (user == null || !_userManager.IsInRoleAsync(user, "member").Result)
             {
-                ModelState.AddModelError("", "Account is not exist");
+                ModelState.AddModelError("", "Account isn't found");
                 return View();
             }
 
             var token = _userManager.GeneratePasswordResetTokenAsync(user).Result;
 
 
-            var url = Url.Action("verify", "account", new { email = vm.Email, token = token }, Request.Scheme);
-            TempData["EmailSent"] = vm.Email;
+            var url = Url.Action("verify", "account", new { email = viewmodel.Email, token = token }, Request.Scheme);
+            TempData["EmailSent"] = viewmodel.Email;
 
-            //send email
+
+            //var emailMessage = new MimeMessage();
+            //emailMessage.From.Add(MailboxAddress.Parse("elmar@gmail.com"));
+            //emailMessage.To.Add(MailboxAddress.Parse(viewmodel.Email));
+            //emailMessage.Subject = "Reset Password";
+            //emailMessage.Body = new TextPart("html")
+            //{
+            //    Text = $"<a href='{url}'>Reset Password</a>"
+            //};
+            //using (var client = new MailKit.Net.Smtp.SmtpClient())
+            //{
+            //    client.Connect("elmar@gmail.com", 587, true); 
+            //    client.Authenticate("celestino.jakubowski@ethereal.email", "qdD9uFrHFWdaTYBSQb");
+            //    client.Send(emailMessage);
+            //    client.Disconnect(true);
+            //}
+
+            //SocketException: nodename nor servname provided, or not known
 
             return Json(new { url = url });
         }
@@ -263,40 +283,35 @@ namespace MvcPustok.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult ResetPassword(ResetPasswordViewModel vm)
+        public IActionResult ResetPassword(ResetPasswordViewModel viewmodel)
         {
-            AppUser? user = _userManager.FindByEmailAsync(vm.Email).Result;
+            AppUser? user = _userManager.FindByEmailAsync(viewmodel.Email).Result;
 
             if (user == null || !_userManager.IsInRoleAsync(user, "member").Result)
             {
-                ModelState.AddModelError("", "Account is not exist");
+                ModelState.AddModelError("", "Account isn't found");
                 return View();
             }
 
-            if (!_userManager.VerifyUserTokenAsync(user, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", vm.Token).Result)
+            if (!_userManager.VerifyUserTokenAsync(user, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", viewmodel.Token).Result)
             {
-                ModelState.AddModelError("", "Account is not exist");
+                ModelState.AddModelError("", "Account isn't found");
                 return View();
             }
 
-            var result = _userManager.ResetPasswordAsync(user, vm.Token, vm.NewPassword).Result;
+            var result = _userManager.ResetPasswordAsync(user, viewmodel.Token, viewmodel.NewPassword).Result;
 
             if (!result.Succeeded)
             {
-                foreach (var item in result.Errors)
+                foreach (var error in result.Errors)
                 {
-                    ModelState.AddModelError("", item.Description);
+                    ModelState.AddModelError("", error.Description);
                 }
                 return View();
             }
 
-          
-
             return RedirectToAction("login");
         }
-
-
-
 
 
     }
