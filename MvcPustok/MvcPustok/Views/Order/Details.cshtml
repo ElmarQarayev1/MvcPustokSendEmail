@@ -1,0 +1,27 @@
+﻿
+@model Order
+
+<h2>Order Details</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Book</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var orderItem in Model.OrderItems)
+        {
+            <tr>
+                <td>@orderItem.Book.Name</td>
+                <td>@orderItem.Count</td>
+                <td>@(orderItem.SalePrice - (orderItem.SalePrice * (orderItem.DiscountPercent / 100)))</td>
+                <td>@(orderItem.Count * (orderItem.SalePrice - (orderItem.SalePrice * (orderItem.DiscountPercent / 100))))</td>
+            </tr>
+        }
+    </tbody>
+
+</table>

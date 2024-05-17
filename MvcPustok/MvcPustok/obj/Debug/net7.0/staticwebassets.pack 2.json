@@ -1,0 +1,665 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/obj/Debug/net7.0/scopedcss/projectbundle/MvcPustok.bundle.scp.css",
+      "PackagePath": "staticwebassets/MvcPustok.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/css/main.css",
+      "PackagePath": "staticwebassets/css/main.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/css/plugins.css",
+      "PackagePath": "staticwebassets/css/plugins.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/Ionicons28b5.eot",
+      "PackagePath": "staticwebassets/fonts/Ionicons28b5.eot"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/Ionicons28b5.svg",
+      "PackagePath": "staticwebassets/fonts/Ionicons28b5.svg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/Ionicons28b5.ttf",
+      "PackagePath": "staticwebassets/fonts/Ionicons28b5.ttf"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/Ionicons28b5.woff",
+      "PackagePath": "staticwebassets/fonts/Ionicons28b5.woff"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/Material-Design-Iconic-Fontd1f1.ttf",
+      "PackagePath": "staticwebassets/fonts/Material-Design-Iconic-Fontd1f1.ttf"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/Material-Design-Iconic-Fontd1f1.woff",
+      "PackagePath": "staticwebassets/fonts/Material-Design-Iconic-Fontd1f1.woff"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/Material-Design-Iconic-Fontd1f1.woff2",
+      "PackagePath": "staticwebassets/fonts/Material-Design-Iconic-Fontd1f1.woff2"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/fonts/fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/best-seller-bg.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/best-seller-bg.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/home-2-slider-1.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/home-2-slider-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/home-2-slider-2.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/home-2-slider-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/home-3-slider-1.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/home-3-slider-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/home-3-slider-2.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/home-3-slider-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/home-4-slider-1.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/home-4-slider-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/home-4-slider-2.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/home-4-slider-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/home-slider-1-ai.png",
+      "PackagePath": "staticwebassets/image/bg-images/home-slider-1-ai.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/home-slider-2-ai.png",
+      "PackagePath": "staticwebassets/image/bg-images/home-slider-2-ai.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-contained.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-contained.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-full.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-full.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-mid.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-mid.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-small-with-text.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-small-with-text.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-small.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-small.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-with-text-2--small.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-with-text-2--small.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-with-text-2.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-with-text-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-with-text-big.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-with-text-big.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/bg-images/promo-banner-with-text.jpg",
+      "PackagePath": "staticwebassets/image/bg-images/promo-banner-with-text.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/favicon.ico",
+      "PackagePath": "staticwebassets/image/favicon.ico"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/icon/author-logo.png",
+      "PackagePath": "staticwebassets/image/icon/author-logo.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/icon/eng-flag.png",
+      "PackagePath": "staticwebassets/image/icon/eng-flag.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/icon/germany-flag.png",
+      "PackagePath": "staticwebassets/image/icon/germany-flag.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/icon/payment.png",
+      "PackagePath": "staticwebassets/image/icon/payment.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/icon/quotation.png",
+      "PackagePath": "staticwebassets/image/icon/quotation.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/logo--footer.png",
+      "PackagePath": "staticwebassets/image/logo--footer.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/logo.png",
+      "PackagePath": "staticwebassets/image/logo.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/best-seller-author.jpg",
+      "PackagePath": "staticwebassets/image/others/best-seller-author.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/blog-grid-1.jpg",
+      "PackagePath": "staticwebassets/image/others/blog-grid-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/blog-grid-2.jpg",
+      "PackagePath": "staticwebassets/image/others/blog-grid-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/blog-grid-3.jpg",
+      "PackagePath": "staticwebassets/image/others/blog-grid-3.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/blog-grid-4.jpg",
+      "PackagePath": "staticwebassets/image/others/blog-grid-4.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/blog-img-big-1.jpg",
+      "PackagePath": "staticwebassets/image/others/blog-img-big-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/blog-img-big-2.jpg",
+      "PackagePath": "staticwebassets/image/others/blog-img-big-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/blog-img-big-3.jpg",
+      "PackagePath": "staticwebassets/image/others/blog-img-big-3.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/brand-1.jpg",
+      "PackagePath": "staticwebassets/image/others/brand-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/brand-2.jpg",
+      "PackagePath": "staticwebassets/image/others/brand-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/brand-3.jpg",
+      "PackagePath": "staticwebassets/image/others/brand-3.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/brand-4.jpg",
+      "PackagePath": "staticwebassets/image/others/brand-4.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/brand-5.jpg",
+      "PackagePath": "staticwebassets/image/others/brand-5.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/brand-6.jpg",
+      "PackagePath": "staticwebassets/image/others/brand-6.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/cat-gal-large.png",
+      "PackagePath": "staticwebassets/image/others/cat-gal-large.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/cat-gal-mid-2.png",
+      "PackagePath": "staticwebassets/image/others/cat-gal-mid-2.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/cat-gal-mid.png",
+      "PackagePath": "staticwebassets/image/others/cat-gal-mid.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/cat-gal-small-2.jpg",
+      "PackagePath": "staticwebassets/image/others/cat-gal-small-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/cat-gal-small.png",
+      "PackagePath": "staticwebassets/image/others/cat-gal-small.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/client-1.png",
+      "PackagePath": "staticwebassets/image/others/client-1.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/client-2.png",
+      "PackagePath": "staticwebassets/image/others/client-2.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/client-3.png",
+      "PackagePath": "staticwebassets/image/others/client-3.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/client-4.png",
+      "PackagePath": "staticwebassets/image/others/client-4.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/client-5.png",
+      "PackagePath": "staticwebassets/image/others/client-5.png"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/home-blog-1.jpg",
+      "PackagePath": "staticwebassets/image/others/home-blog-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/home-blog-2.jpg",
+      "PackagePath": "staticwebassets/image/others/home-blog-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/others/home-side-promo.jpg",
+      "PackagePath": "staticwebassets/image/others/home-side-promo.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/cart-product-1.jpg",
+      "PackagePath": "staticwebassets/image/products/cart-product-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-1.jpg",
+      "PackagePath": "staticwebassets/image/products/product-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-10.jpg",
+      "PackagePath": "staticwebassets/image/products/product-10.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-11.jpg",
+      "PackagePath": "staticwebassets/image/products/product-11.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-12.jpg",
+      "PackagePath": "staticwebassets/image/products/product-12.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-13.jpg",
+      "PackagePath": "staticwebassets/image/products/product-13.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-2.jpg",
+      "PackagePath": "staticwebassets/image/products/product-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-3.jpg",
+      "PackagePath": "staticwebassets/image/products/product-3.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-4.jpg",
+      "PackagePath": "staticwebassets/image/products/product-4.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-5.jpg",
+      "PackagePath": "staticwebassets/image/products/product-5.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-6.jpg",
+      "PackagePath": "staticwebassets/image/products/product-6.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-7.jpg",
+      "PackagePath": "staticwebassets/image/products/product-7.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-8.jpg",
+      "PackagePath": "staticwebassets/image/products/product-8.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-9.jpg",
+      "PackagePath": "staticwebassets/image/products/product-9.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-details-1.jpg",
+      "PackagePath": "staticwebassets/image/products/product-details-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-details-2.jpg",
+      "PackagePath": "staticwebassets/image/products/product-details-2.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-details-3.jpg",
+      "PackagePath": "staticwebassets/image/products/product-details-3.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-details-4.jpg",
+      "PackagePath": "staticwebassets/image/products/product-details-4.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/image/products/product-details-5.jpg",
+      "PackagePath": "staticwebassets/image/products/product-details-5.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/js/ajax-mail.js",
+      "PackagePath": "staticwebassets/js/ajax-mail.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/js/custom.js",
+      "PackagePath": "staticwebassets/js/custom.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/js/plugins.js",
+      "PackagePath": "staticwebassets/js/plugins.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokAdmin/MvcPustok/MvcPustok/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.MvcPustok.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.MvcPustok.props",
+      "PackagePath": "build\\MvcPustok.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MvcPustok.props",
+      "PackagePath": "buildMultiTargeting\\MvcPustok.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MvcPustok.props",
+      "PackagePath": "buildTransitive\\MvcPustok.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
