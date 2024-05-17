@@ -212,6 +212,92 @@ namespace MvcPustok.Controllers
             return View(order);
         }
 
+        public IActionResult ForgetPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ForgetPassword(ForgetPasswordViewModel vm)
+        {
+            if (!ModelState.IsValid) return View(vm);
+
+            AppUser? user = _userManager.FindByEmailAsync(vm.Email).Result;
+
+            if (user == null || !_userManager.IsInRoleAsync(user, "member").Result)
+            {
+                ModelState.AddModelError("", "Account is not exist");
+                return View();
+            }
+
+            var token = _userManager.GeneratePasswordResetTokenAsync(user).Result;
+
+
+            var url = Url.Action("verify", "account", new { email = vm.Email, token = token }, Request.Scheme);
+            TempData["EmailSent"] = vm.Email;
+
+            //send email
+
+            return Json(new { url = url });
+        }
+        public IActionResult Verify(string email, string token)
+        {
+            AppUser? user = _userManager.FindByEmailAsync(email).Result;
+
+            if (user == null || !_userManager.IsInRoleAsync(user, "member").Result)
+            {
+                return RedirectToAction("notfound", "error");
+            }
+
+            if (!_userManager.VerifyUserTokenAsync(user, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", token).Result)
+            {
+                return RedirectToAction("notfound", "error");
+            }
+
+            TempData["email"] = email;
+            TempData["token"] = token;
+
+            return RedirectToAction("resetPassword");
+        }
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ResetPassword(ResetPasswordViewModel vm)
+        {
+            AppUser? user = _userManager.FindByEmailAsync(vm.Email).Result;
+
+            if (user == null || !_userManager.IsInRoleAsync(user, "member").Result)
+            {
+                ModelState.AddModelError("", "Account is not exist");
+                return View();
+            }
+
+            if (!_userManager.VerifyUserTokenAsync(user, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", vm.Token).Result)
+            {
+                ModelState.AddModelError("", "Account is not exist");
+                return View();
+            }
+
+            var result = _userManager.ResetPasswordAsync(user, vm.Token, vm.NewPassword).Result;
+
+            if (!result.Succeeded)
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError("", item.Description);
+                }
+                return View();
+            }
+
+          
+
+            return RedirectToAction("login");
+        }
+
+
+
+
 
     }
 }

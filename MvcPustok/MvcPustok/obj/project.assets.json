@@ -11907,11 +11907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokCheckOrder/MvcPustok/MvcPustok/MvcPustok.csproj",
+      "projectUniqueName": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/MvcPustok.csproj",
       "projectName": "MvcPustok",
-      "projectPath": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokCheckOrder/MvcPustok/MvcPustok/MvcPustok.csproj",
+      "projectPath": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/MvcPustok.csproj",
       "packagesPath": "/Users/elmar/.nuget/packages/",
-      "outputPath": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokCheckOrder/MvcPustok/MvcPustok/obj/",
+      "outputPath": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokSendEmail/MvcPustok/MvcPustok/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/elmar/.nuget/NuGet/NuGet.Config"
